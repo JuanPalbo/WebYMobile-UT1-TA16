@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    margin: 0;
+}
+header {
+    align-self: center;
+}
+p {
+    font-size: 14px;
+    align-self: center;
+}
+img {
+    width: 100vw;
+    height: auto;
+    align-self: center;
+}
+
+@media (width > 425px) {
+    body {
+        background-color: green;
+    }p {
+        font-size: 18px;
+    }
+    img {
+        width: 70vw;
+    }
+}
+
+@media (width > 768px) {
+    body {
+        background-color: red;
+    }p {
+        font-size: 24px;
+    }
+    img {
+        width: 50vw;
+    }
+}
+
